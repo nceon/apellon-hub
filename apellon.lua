@@ -204,7 +204,7 @@ FrosthookSpy.TextSize = 14.000
 FrosthookSpy.TextStrokeTransparency = 0.000
 FrosthookSpy.TextWrapped = true
 FrosthookSpy.MouseButton1Click:connect(function()
-	loadstring(game:GetHttp("https://raw.githubusercontent.com/Nootchtai/FrostHook_Spy/master/Spy.lua"))()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/Nootchtai/FrostHook_Spy/master/Spy.lua'))()
 end)
 
 DexExplorer.Name = "DexExplorer"
@@ -221,7 +221,7 @@ DexExplorer.TextSize = 14.000
 DexExplorer.TextStrokeTransparency = 0.000
 DexExplorer.TextWrapped = true
 DexExplorer.MouseButton1Click:connect(function()
-	loadstring(game:GetHttp("https://gist.githubusercontent.com/DinosaurXxX/b757fe011e7e600c0873f967fe427dc2/raw/ee5324771f017073fc30e640323ac2a9b3bfc550/dark%2520dex%2520v4"))()
+	loadstring(game:HttpGet("https://gist.githubusercontent.com/DinosaurXxX/b757fe011e7e600c0873f967fe427dc2/raw/ee5324771f017073fc30e640323ac2a9b3bfc550/dark%2520dex%2520v4"))()
 end)
 
 C00lGuiV4.Name = "C00lGui V4"
