@@ -42,6 +42,7 @@ Frame.ImageColor3 = Color3.fromRGB(21, 21, 21)
 Frame.ScaleType = Enum.ScaleType.Slice
 Frame.SliceCenter = Rect.new(100, 100, 100, 100)
 Frame.SliceScale = 0.250
+Frame.Active = true
 Frame.Draggable = true
 
 versiona.Name = "version"
