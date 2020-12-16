@@ -6,7 +6,7 @@ local apellonVersion = "0.0.6a Alpha"
 
 local Apellon = Instance.new("ScreenGui")
 local Frame = Instance.new("ImageLabel")
-local version = Instance.new("TextLabel")
+local versiona = Instance.new("TextLabel")
 local apellonhub = Instance.new("TextLabel")
 local infyield = Instance.new("TextButton")
 local iOrb = Instance.new("TextButton")
@@ -22,6 +22,7 @@ local esp = Instance.new("TextButton")
 local V3RMcmdbar = Instance.new("TextButton")
 local madeby = Instance.new("TextLabel")
 local closebutton = Instance.new("TextButton")
+local ApellonOpen = Instance.new("TextButton")
 
 --Properties:
 
@@ -43,18 +44,18 @@ Frame.SliceCenter = Rect.new(100, 100, 100, 100)
 Frame.SliceScale = 0.250
 Frame.Draggable = true
 
-version.Name = "version"
-version.Parent = Frame
-version.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-version.BackgroundTransparency = 1.000
-version.Position = UDim2.new(0, 0, 0.152439028, 0)
-version.Size = UDim2.new(0, 727, 0, 35)
-version.Font = Enum.Font.SourceSans
-version.Text = apellonVersion
-version.TextColor3 = Color3.fromRGB(62, 75, 255)
-version.TextScaled = true
-version.TextSize = 14.000
-version.TextWrapped = true
+versiona.Name = "version"
+versiona.Parent = Frame
+versiona.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+versiona.BackgroundTransparency = 1.000
+versiona.Position = UDim2.new(0, 0, 0.152439028, 0)
+versiona.Size = UDim2.new(0, 727, 0, 35)
+versiona.Font = Enum.Font.SourceSans
+versiona.Text = apellonVersion
+versiona.TextColor3 = Color3.fromRGB(62, 75, 255)
+versiona.TextScaled = true
+versiona.TextSize = 14.000
+versiona.TextWrapped = true
 
 apellonhub.Name = "apellonhub"
 apellonhub.Parent = Frame
@@ -82,6 +83,9 @@ infyield.TextScaled = true
 infyield.TextSize = 14.000
 infyield.TextStrokeTransparency = 0.000
 infyield.TextWrapped = true
+infyield.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
 
 iOrb.Name = "iOrb"
 iOrb.Parent = Frame
@@ -96,6 +100,9 @@ iOrb.TextScaled = true
 iOrb.TextSize = 14.000
 iOrb.TextStrokeTransparency = 0.000
 iOrb.TextWrapped = true
+iOrb.MouseButton1Click:Connect(function()
+	loadstring(game:GetObjects("rbxassetid://100205720")[1].Source)()
+end)
 
 yourmomgui.Name = "yourmomgui"
 yourmomgui.Parent = Frame
@@ -110,6 +117,9 @@ yourmomgui.TextScaled = true
 yourmomgui.TextSize = 14.000
 yourmomgui.TextStrokeTransparency = 0.000
 yourmomgui.TextWrapped = true
+yourmomgui.MouseButton1Down:connect(function()
+	loadstring(game:GetObjects('rbxassetid://289110135')[1].Source)()
+end)
 
 PhantomX.Name = "PhantomX"
 PhantomX.Parent = Frame
@@ -124,6 +134,9 @@ PhantomX.TextScaled = true
 PhantomX.TextSize = 14.000
 PhantomX.TextStrokeTransparency = 0.000
 PhantomX.TextWrapped = true
+PhantomX.MouseButton1Down:connect(function()
+	loadstring(game:GetObjects("rbxassetid://296648575")[1].Source)()
+end)
 
 C00lGuiRB.Name = "C00lGuiRB"
 C00lGuiRB.Parent = Frame
@@ -138,6 +151,9 @@ C00lGuiRB.TextScaled = true
 C00lGuiRB.TextSize = 14.000
 C00lGuiRB.TextStrokeTransparency = 0.000
 C00lGuiRB.TextWrapped = true
+C00lGuiRB.MouseButton1Down:connect(function()
+	loadstring(game:GetObjects("rbxassetid://164682199")[1].Source)()
+end)
 
 Roxploit.Name = "Roxploit"
 Roxploit.Parent = Frame
@@ -152,6 +168,9 @@ Roxploit.TextScaled = true
 Roxploit.TextSize = 14.000
 Roxploit.TextStrokeTransparency = 0.000
 Roxploit.TextWrapped = true
+Roxploit.MouseButton1Click:connect(function()
+	loadstring(game:GetObjects("rbxassetid://288646117")[1].Source)()
+end)
 
 UTG.Name = "UTG"
 UTG.Parent = Frame
@@ -166,6 +185,9 @@ UTG.TextScaled = true
 UTG.TextSize = 14.000
 UTG.TextStrokeTransparency = 0.000
 UTG.TextWrapped = true
+UTG.MouseButton1Click:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/RNWgaqCE", true))()
+end)
 
 FrosthookSpy.Name = "FrosthookSpy"
 FrosthookSpy.Parent = Frame
@@ -180,6 +202,9 @@ FrosthookSpy.TextScaled = true
 FrosthookSpy.TextSize = 14.000
 FrosthookSpy.TextStrokeTransparency = 0.000
 FrosthookSpy.TextWrapped = true
+FrosthookSpy.MouseButton1Click:connect(function()
+	loadstring(game:GetHttp("https://raw.githubusercontent.com/Nootchtai/FrostHook_Spy/master/Spy.lua"))()
+end)
 
 DexExplorer.Name = "DexExplorer"
 DexExplorer.Parent = Frame
@@ -194,6 +219,9 @@ DexExplorer.TextScaled = true
 DexExplorer.TextSize = 14.000
 DexExplorer.TextStrokeTransparency = 0.000
 DexExplorer.TextWrapped = true
+DexExplorer.MouseButton1Click:connect(function()
+	loadstring(game:GetHttp("https://gist.githubusercontent.com/DinosaurXxX/b757fe011e7e600c0873f967fe427dc2/raw/ee5324771f017073fc30e640323ac2a9b3bfc550/dark%2520dex%2520v4"))()
+end)
 
 C00lGuiV4.Name = "C00lGui V4"
 C00lGuiV4.Parent = Frame
@@ -208,6 +236,9 @@ C00lGuiV4.TextScaled = true
 C00lGuiV4.TextSize = 14.000
 C00lGuiV4.TextStrokeTransparency = 0.000
 C00lGuiV4.TextWrapped = true
+C00lGuiV4.MouseButton1Click:connect(function()
+	loadstring(game:GetObjects("rbxassetid://157645868")[1].Source)()
+end)
 
 esp.Name = "esp"
 esp.Parent = Frame
@@ -222,6 +253,9 @@ esp.TextScaled = true
 esp.TextSize = 14.000
 esp.TextStrokeTransparency = 0.000
 esp.TextWrapped = true
+esp.MouseButton1Click:connect(function()
+	
+end)
 
 V3RMcmdbar.Name = "V3RMcmdbar"
 V3RMcmdbar.Parent = Frame
@@ -236,6 +270,9 @@ V3RMcmdbar.TextScaled = true
 V3RMcmdbar.TextSize = 14.000
 V3RMcmdbar.TextStrokeTransparency = 0.000
 V3RMcmdbar.TextWrapped = true
+V3RMcmdbar.MouseButton1Click:connect(function()
+	loadstring(game:GetObjects("rbxassetid://138660278")[1].Source)()
+end)
 
 madeby.Name = "madeby"
 madeby.Parent = Frame
@@ -250,6 +287,22 @@ madeby.TextScaled = true
 madeby.TextSize = 14.000
 madeby.TextWrapped = true
 
+ApellonOpen.Parent = Frame
+ApellonOpen.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+ApellonOpen.Position = UDim2.new(0.853479862, 0, 0.934895813, 0)
+ApellonOpen.Size = UDim2.new(0, 200, 0, 50)
+ApellonOpen.Font = Enum.Font.SourceSansSemibold
+ApellonOpen.Text = "Apellon"
+ApellonOpen.TextColor3 = Color3.fromRGB(255, 255, 255)
+ApellonOpen.TextScaled = true
+ApellonOpen.TextSize = 14.000
+ApellonOpen.TextWrapped = true
+ApellonOpen.Visible = false
+ApellonOpen.MouseButton1Click:connect(function()
+	Frame.Visible = true
+	ApellonOpen.Visible = false
+end)
+
 closebutton.Name = "close button"
 closebutton.Parent = Frame
 closebutton.BackgroundColor3 = Color3.fromRGB(255, 33, 36)
@@ -260,3 +313,7 @@ closebutton.TextColor3 = Color3.fromRGB(0, 0, 0)
 closebutton.TextScaled = true
 closebutton.TextSize = 14.000
 closebutton.TextWrapped = true
+closebutton.MouseButton1Click:connect(function()
+	Frame.Visible = false
+	ApellonOpen.Visible = true
+end)
