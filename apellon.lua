@@ -1,28 +1,27 @@
--- Variables:
+-- Variables: 
 
-local apellonVersion = "0.0.6a Alpha"
+local apellonver = "Version: Alpha 0.0.7a"
 
 -- Instances:
 
 local Apellon = Instance.new("ScreenGui")
 local Frame = Instance.new("ImageLabel")
-local versiona = Instance.new("TextLabel")
+local apellonversion = Instance.new("TextLabel")
 local apellonhub = Instance.new("TextLabel")
+local cbcbsw = Instance.new("TextButton")
+local phx = Instance.new("TextButton")
+local mm2 = Instance.new("TextButton")
+local mc = Instance.new("TextButton")
+local jb = Instance.new("TextButton")
+local arsenal = Instance.new("TextButton")
+local ftfb = Instance.new("TextButton")
+local _321bo = Instance.new("TextButton")
+local fhs = Instance.new("TextButton")
 local infyield = Instance.new("TextButton")
-local iOrb = Instance.new("TextButton")
-local yourmomgui = Instance.new("TextButton")
-local PhantomX = Instance.new("TextButton")
-local C00lGuiRB = Instance.new("TextButton")
-local Roxploit = Instance.new("TextButton")
-local UTG = Instance.new("TextButton")
-local FrosthookSpy = Instance.new("TextButton")
-local DexExplorer = Instance.new("TextButton")
-local C00lGuiV4 = Instance.new("TextButton")
-local esp = Instance.new("TextButton")
-local V3RMcmdbar = Instance.new("TextButton")
 local madeby = Instance.new("TextLabel")
 local closebutton = Instance.new("TextButton")
-local ApellonOpen = Instance.new("TextButton")
+local dexv4 = Instance.new("TextButton")
+local ds = Instance.new("TextButton")
 
 --Properties:
 
@@ -45,18 +44,18 @@ Frame.SliceScale = 0.250
 Frame.Active = true
 Frame.Draggable = true
 
-versiona.Name = "version"
-versiona.Parent = Frame
-versiona.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-versiona.BackgroundTransparency = 1.000
-versiona.Position = UDim2.new(0, 0, 0.152439028, 0)
-versiona.Size = UDim2.new(0, 727, 0, 35)
-versiona.Font = Enum.Font.SourceSans
-versiona.Text = apellonVersion
-versiona.TextColor3 = Color3.fromRGB(62, 75, 255)
-versiona.TextScaled = true
-versiona.TextSize = 14.000
-versiona.TextWrapped = true
+apellonversion.Name = "version"
+apellonversion.Parent = Frame
+apellonversion.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+apellonversion.BackgroundTransparency = 1.000
+apellonversion.Position = UDim2.new(0, 0, 0.152439028, 0)
+apellonversion.Size = UDim2.new(0, 727, 0, 35)
+apellonversion.Font = Enum.Font.SourceSans
+apellonversion.Text = apellonver
+apellonversion.TextColor3 = Color3.fromRGB(62, 75, 255)
+apellonversion.TextScaled = true
+apellonversion.TextSize = 14.000
+apellonversion.TextWrapped = true
 
 apellonhub.Name = "apellonhub"
 apellonhub.Parent = Frame
@@ -64,18 +63,171 @@ apellonhub.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 apellonhub.BackgroundTransparency = 1.000
 apellonhub.Size = UDim2.new(0, 722, 0, 50)
 apellonhub.Font = Enum.Font.SourceSansSemibold
-apellonhub.Text = "Apellon Hub"
+apellonhub.Text = "Apellon"
 apellonhub.TextColor3 = Color3.fromRGB(255, 255, 255)
 apellonhub.TextScaled = true
 apellonhub.TextSize = 14.000
 apellonhub.TextStrokeTransparency = 0.000
 apellonhub.TextWrapped = true
 
+cbcbsw.Name = "c-bcbsw"
+cbcbsw.Parent = Frame
+cbcbsw.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+cbcbsw.BackgroundTransparency = 0.500
+cbcbsw.Position = UDim2.new(0.00962861069, 0, 0.393292665, 0)
+cbcbsw.Size = UDim2.new(0, 163, 0, 50)
+cbcbsw.Font = Enum.Font.Code
+cbcbsw.Text = "[CLASSIC] Be Crushed by a Speeding Wall"
+cbcbsw.TextColor3 = Color3.fromRGB(255, 255, 255)
+cbcbsw.TextScaled = true
+cbcbsw.TextSize = 14.000
+cbcbsw.TextStrokeTransparency = 0.000
+cbcbsw.TextWrapped = true
+cbcbsw.MouseButton1Click:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/nceon/apellon-hub/main/games/%5BCLASSIC%5D%20Be%20Crushed%20by%20a%20Speeding%20Wall.lua"))
+end)
+
+phx.Name = "phx"
+phx.Parent = Frame
+phx.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+phx.BackgroundTransparency = 0.500
+phx.Position = UDim2.new(0.510316432, 0, 0.75, 0)
+phx.Size = UDim2.new(0, 163, 0, 50)
+phx.Font = Enum.Font.Code
+phx.Text = "Phantom X"
+phx.TextColor3 = Color3.fromRGB(255, 255, 255)
+phx.TextScaled = true
+phx.TextSize = 14.000
+phx.TextStrokeTransparency = 0.000
+phx.TextWrapped = true
+phx.MouseButton1Click:connect(function()
+	loadstring(game:GetObjects("rbxassetid://296648575")[1].Source)()
+end)
+
+mm2.Name = "mm2"
+mm2.Parent = Frame
+mm2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+mm2.BackgroundTransparency = 0.500
+mm2.Position = UDim2.new(0.768913388, 0, 0.393292665, 0)
+mm2.Size = UDim2.new(0, 163, 0, 50)
+mm2.Font = Enum.Font.Code
+mm2.Text = "Murder Mystery 2"
+mm2.TextColor3 = Color3.fromRGB(255, 255, 255)
+mm2.TextScaled = true
+mm2.TextSize = 14.000
+mm2.TextStrokeTransparency = 0.000
+mm2.TextWrapped = true
+mm2.MouseButton1Click:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/nceon/apellon-hub/main/games/Murder%20Mystery%202.lua"))
+end)
+
+mc.Name = "mc"
+mc.Parent = Frame
+mc.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+mc.BackgroundTransparency = 0.500
+mc.Position = UDim2.new(0.261348009, 0, 0.567073166, 0)
+mc.Size = UDim2.new(0, 163, 0, 50)
+mc.Font = Enum.Font.Code
+mc.Text = "Mad City"
+mc.TextColor3 = Color3.fromRGB(255, 255, 255)
+mc.TextScaled = true
+mc.TextSize = 14.000
+mc.TextStrokeTransparency = 0.000
+mc.TextWrapped = true
+mc.MouseButton1Click:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/nceon/apellon-hub/main/games/Mad%20city.lua"))
+end)
+
+jb.Name = "jb"
+jb.Parent = Frame
+jb.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+jb.BackgroundTransparency = 0.500
+jb.Position = UDim2.new(0.261348009, 0, 0.393292665, 0)
+jb.Size = UDim2.new(0, 163, 0, 50)
+jb.Font = Enum.Font.Code
+jb.Text = "Jailbreak"
+jb.TextColor3 = Color3.fromRGB(255, 255, 255)
+jb.TextScaled = true
+jb.TextSize = 14.000
+jb.TextStrokeTransparency = 0.000
+jb.TextWrapped = true
+jb.MouseButton1Click:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/nceon/apellon-hub/main/games/Jailbreak.lua"))
+end)
+
+arsenal.Name = "arsenal"
+arsenal.Parent = Frame
+arsenal.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+arsenal.BackgroundTransparency = 0.500
+arsenal.Position = UDim2.new(0.511691928, 0, 0.567073166, 0)
+arsenal.Size = UDim2.new(0, 163, 0, 50)
+arsenal.Font = Enum.Font.Code
+arsenal.Text = "Arsenal"
+arsenal.TextColor3 = Color3.fromRGB(255, 255, 255)
+arsenal.TextScaled = true
+arsenal.TextSize = 14.000
+arsenal.TextStrokeTransparency = 0.000
+arsenal.TextWrapped = true
+arsenal.MouseButton1Click:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/nceon/apellon-hub/main/games/Arsenal.lua"))
+end)
+
+ftfb.Name = "ftf-b"
+ftfb.Parent = Frame
+ftfb.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ftfb.BackgroundTransparency = 0.500
+ftfb.Position = UDim2.new(0.511691928, 0, 0.393292665, 0)
+ftfb.Size = UDim2.new(0, 163, 0, 50)
+ftfb.Font = Enum.Font.Code
+ftfb.Text = "Flee the Facility"
+ftfb.TextColor3 = Color3.fromRGB(255, 255, 255)
+ftfb.TextScaled = true
+ftfb.TextSize = 14.000
+ftfb.TextStrokeTransparency = 0.000
+ftfb.TextWrapped = true
+ftfb.MouseButton1Click:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/mFnVACZ1"))
+end)
+
+_321bo.Name = "321bo"
+_321bo.Parent = Frame
+_321bo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_321bo.BackgroundTransparency = 0.500
+_321bo.Position = UDim2.new(0.00962861069, 0, 0.567073166, 0)
+_321bo.Size = UDim2.new(0, 163, 0, 50)
+_321bo.Font = Enum.Font.Code
+_321bo.Text = "3-2-1 Blast Off Simulator"
+_321bo.TextColor3 = Color3.fromRGB(255, 255, 255)
+_321bo.TextScaled = true
+_321bo.TextSize = 14.000
+_321bo.TextStrokeTransparency = 0.000
+_321bo.TextWrapped = true
+_321bo.MouseButton1Click:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/nceon/apellon-hub/main/games/3-2-1%20Blast%20Off%20Simulator.lua"))
+end)
+
+fhs.Name = "fhs"
+fhs.Parent = Frame
+fhs.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+fhs.BackgroundTransparency = 0.500
+fhs.Position = UDim2.new(0.767537892, 0, 0.75, 0)
+fhs.Size = UDim2.new(0, 163, 0, 50)
+fhs.Font = Enum.Font.Code
+fhs.Text = "Frosthook Spy"
+fhs.TextColor3 = Color3.fromRGB(255, 255, 255)
+fhs.TextScaled = true
+fhs.TextSize = 14.000
+fhs.TextStrokeTransparency = 0.000
+fhs.TextWrapped = true
+fhs.MouseButton1Click:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Nootchtai/FrostHook_Spy/master/Spy.lua"))()
+end)
+
 infyield.Name = "infyield"
 infyield.Parent = Frame
 infyield.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 infyield.BackgroundTransparency = 0.500
-infyield.Position = UDim2.new(0.00962861069, 0, 0.393292665, 0)
+infyield.Position = UDim2.new(0.00825309474, 0, 0.75, 0)
 infyield.Size = UDim2.new(0, 163, 0, 50)
 infyield.Font = Enum.Font.Code
 infyield.Text = "Infinite Yield"
@@ -84,195 +236,8 @@ infyield.TextScaled = true
 infyield.TextSize = 14.000
 infyield.TextStrokeTransparency = 0.000
 infyield.TextWrapped = true
-infyield.MouseButton1Down:connect(function()
+infyield.MouseButton1Click:connect(function()
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
-end)
-
-iOrb.Name = "iOrb"
-iOrb.Parent = Frame
-iOrb.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-iOrb.BackgroundTransparency = 0.500
-iOrb.Position = UDim2.new(0.259972483, 0, 0.75, 0)
-iOrb.Size = UDim2.new(0, 163, 0, 50)
-iOrb.Font = Enum.Font.Code
-iOrb.Text = "iOrb"
-iOrb.TextColor3 = Color3.fromRGB(255, 255, 255)
-iOrb.TextScaled = true
-iOrb.TextSize = 14.000
-iOrb.TextStrokeTransparency = 0.000
-iOrb.TextWrapped = true
-iOrb.MouseButton1Click:Connect(function()
-	loadstring(game:GetObjects("rbxassetid://100205720")[1].Source)()
-end)
-
-yourmomgui.Name = "yourmomgui"
-yourmomgui.Parent = Frame
-yourmomgui.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-yourmomgui.BackgroundTransparency = 0.500
-yourmomgui.Position = UDim2.new(0.510316432, 0, 0.75, 0)
-yourmomgui.Size = UDim2.new(0, 163, 0, 50)
-yourmomgui.Font = Enum.Font.Code
-yourmomgui.Text = "Your Mom GUI"
-yourmomgui.TextColor3 = Color3.fromRGB(255, 255, 255)
-yourmomgui.TextScaled = true
-yourmomgui.TextSize = 14.000
-yourmomgui.TextStrokeTransparency = 0.000
-yourmomgui.TextWrapped = true
-yourmomgui.MouseButton1Down:connect(function()
-	loadstring(game:GetObjects('rbxassetid://289110135')[1].Source)()
-end)
-
-PhantomX.Name = "PhantomX"
-PhantomX.Parent = Frame
-PhantomX.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-PhantomX.BackgroundTransparency = 0.500
-PhantomX.Position = UDim2.new(0.768913388, 0, 0.567073166, 0)
-PhantomX.Size = UDim2.new(0, 163, 0, 50)
-PhantomX.Font = Enum.Font.Code
-PhantomX.Text = "PhantomX"
-PhantomX.TextColor3 = Color3.fromRGB(255, 255, 255)
-PhantomX.TextScaled = true
-PhantomX.TextSize = 14.000
-PhantomX.TextStrokeTransparency = 0.000
-PhantomX.TextWrapped = true
-PhantomX.MouseButton1Down:connect(function()
-	loadstring(game:GetObjects("rbxassetid://296648575")[1].Source)()
-end)
-
-C00lGuiRB.Name = "C00lGuiRB"
-C00lGuiRB.Parent = Frame
-C00lGuiRB.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-C00lGuiRB.BackgroundTransparency = 0.500
-C00lGuiRB.Position = UDim2.new(0.768913388, 0, 0.393292665, 0)
-C00lGuiRB.Size = UDim2.new(0, 163, 0, 50)
-C00lGuiRB.Font = Enum.Font.Code
-C00lGuiRB.Text = "C00lGui Reborn"
-C00lGuiRB.TextColor3 = Color3.fromRGB(255, 255, 255)
-C00lGuiRB.TextScaled = true
-C00lGuiRB.TextSize = 14.000
-C00lGuiRB.TextStrokeTransparency = 0.000
-C00lGuiRB.TextWrapped = true
-C00lGuiRB.MouseButton1Down:connect(function()
-	loadstring(game:GetObjects("rbxassetid://164682199")[1].Source)()
-end)
-
-Roxploit.Name = "Roxploit"
-Roxploit.Parent = Frame
-Roxploit.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Roxploit.BackgroundTransparency = 0.500
-Roxploit.Position = UDim2.new(0.261348009, 0, 0.567073166, 0)
-Roxploit.Size = UDim2.new(0, 163, 0, 50)
-Roxploit.Font = Enum.Font.Code
-Roxploit.Text = "Ro-xploit"
-Roxploit.TextColor3 = Color3.fromRGB(255, 255, 255)
-Roxploit.TextScaled = true
-Roxploit.TextSize = 14.000
-Roxploit.TextStrokeTransparency = 0.000
-Roxploit.TextWrapped = true
-Roxploit.MouseButton1Click:connect(function()
-	loadstring(game:GetObjects("rbxassetid://288646117")[1].Source)()
-end)
-
-UTG.Name = "UTG"
-UTG.Parent = Frame
-UTG.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-UTG.BackgroundTransparency = 0.500
-UTG.Position = UDim2.new(0.261348009, 0, 0.393292665, 0)
-UTG.Size = UDim2.new(0, 163, 0, 50)
-UTG.Font = Enum.Font.Code
-UTG.Text = "Ultimate Trolling GUI"
-UTG.TextColor3 = Color3.fromRGB(255, 255, 255)
-UTG.TextScaled = true
-UTG.TextSize = 14.000
-UTG.TextStrokeTransparency = 0.000
-UTG.TextWrapped = true
-UTG.MouseButton1Click:connect(function()
-	loadstring(game:HttpGet("https://pastebin.com/raw/RNWgaqCE", true))()
-end)
-
-FrosthookSpy.Name = "FrosthookSpy"
-FrosthookSpy.Parent = Frame
-FrosthookSpy.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-FrosthookSpy.BackgroundTransparency = 0.500
-FrosthookSpy.Position = UDim2.new(0.511691928, 0, 0.567073166, 0)
-FrosthookSpy.Size = UDim2.new(0, 163, 0, 50)
-FrosthookSpy.Font = Enum.Font.Code
-FrosthookSpy.Text = "Frosthook Spy"
-FrosthookSpy.TextColor3 = Color3.fromRGB(255, 255, 255)
-FrosthookSpy.TextScaled = true
-FrosthookSpy.TextSize = 14.000
-FrosthookSpy.TextStrokeTransparency = 0.000
-FrosthookSpy.TextWrapped = true
-FrosthookSpy.MouseButton1Click:connect(function()
-	loadstring(game:HttpGet('https://raw.githubusercontent.com/Nootchtai/FrostHook_Spy/master/Spy.lua'))()
-end)
-
-DexExplorer.Name = "DexExplorer"
-DexExplorer.Parent = Frame
-DexExplorer.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-DexExplorer.BackgroundTransparency = 0.500
-DexExplorer.Position = UDim2.new(0.511691928, 0, 0.393292665, 0)
-DexExplorer.Size = UDim2.new(0, 163, 0, 50)
-DexExplorer.Font = Enum.Font.Code
-DexExplorer.Text = "Dex V4"
-DexExplorer.TextColor3 = Color3.fromRGB(255, 255, 255)
-DexExplorer.TextScaled = true
-DexExplorer.TextSize = 14.000
-DexExplorer.TextStrokeTransparency = 0.000
-DexExplorer.TextWrapped = true
-DexExplorer.MouseButton1Click:connect(function()
-	loadstring(game:HttpGet("https://gist.githubusercontent.com/DinosaurXxX/b757fe011e7e600c0873f967fe427dc2/raw/ee5324771f017073fc30e640323ac2a9b3bfc550/dark%2520dex%2520v4"))()
-end)
-
-C00lGuiV4.Name = "C00lGui V4"
-C00lGuiV4.Parent = Frame
-C00lGuiV4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-C00lGuiV4.BackgroundTransparency = 0.500
-C00lGuiV4.Position = UDim2.new(0.00962861069, 0, 0.567073166, 0)
-C00lGuiV4.Size = UDim2.new(0, 163, 0, 50)
-C00lGuiV4.Font = Enum.Font.Code
-C00lGuiV4.Text = "C00lGui V4"
-C00lGuiV4.TextColor3 = Color3.fromRGB(255, 255, 255)
-C00lGuiV4.TextScaled = true
-C00lGuiV4.TextSize = 14.000
-C00lGuiV4.TextStrokeTransparency = 0.000
-C00lGuiV4.TextWrapped = true
-C00lGuiV4.MouseButton1Click:connect(function()
-	loadstring(game:GetObjects("rbxassetid://157645868")[1].Source)()
-end)
-
-esp.Name = "esp"
-esp.Parent = Frame
-esp.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-esp.BackgroundTransparency = 0.500
-esp.Position = UDim2.new(0.767537892, 0, 0.75, 0)
-esp.Size = UDim2.new(0, 163, 0, 50)
-esp.Font = Enum.Font.Code
-esp.Text = "ESP"
-esp.TextColor3 = Color3.fromRGB(255, 255, 255)
-esp.TextScaled = true
-esp.TextSize = 14.000
-esp.TextStrokeTransparency = 0.000
-esp.TextWrapped = true
-esp.MouseButton1Click:connect(function()
-	
-end)
-
-V3RMcmdbar.Name = "V3RMcmdbar"
-V3RMcmdbar.Parent = Frame
-V3RMcmdbar.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-V3RMcmdbar.BackgroundTransparency = 0.500
-V3RMcmdbar.Position = UDim2.new(0.00825309474, 0, 0.75, 0)
-V3RMcmdbar.Size = UDim2.new(0, 163, 0, 50)
-V3RMcmdbar.Font = Enum.Font.Code
-V3RMcmdbar.Text = "V3rmillion Command Bar"
-V3RMcmdbar.TextColor3 = Color3.fromRGB(255, 255, 255)
-V3RMcmdbar.TextScaled = true
-V3RMcmdbar.TextSize = 14.000
-V3RMcmdbar.TextStrokeTransparency = 0.000
-V3RMcmdbar.TextWrapped = true
-V3RMcmdbar.MouseButton1Click:connect(function()
-	loadstring(game:GetObjects("rbxassetid://138660278")[1].Source)()
 end)
 
 madeby.Name = "madeby"
@@ -288,22 +253,6 @@ madeby.TextScaled = true
 madeby.TextSize = 14.000
 madeby.TextWrapped = true
 
-ApellonOpen.Parent = Frame
-ApellonOpen.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
-ApellonOpen.Position = UDim2.new(0.853479862, 0, 0.934895813, 0)
-ApellonOpen.Size = UDim2.new(0, 200, 0, 50)
-ApellonOpen.Font = Enum.Font.SourceSansSemibold
-ApellonOpen.Text = "Apellon"
-ApellonOpen.TextColor3 = Color3.fromRGB(255, 255, 255)
-ApellonOpen.TextScaled = true
-ApellonOpen.TextSize = 14.000
-ApellonOpen.TextWrapped = true
-ApellonOpen.Visible = false
-ApellonOpen.MouseButton1Click:connect(function()
-	Frame.Visible = true
-	ApellonOpen.Visible = false
-end)
-
 closebutton.Name = "close button"
 closebutton.Parent = Frame
 closebutton.BackgroundColor3 = Color3.fromRGB(255, 33, 36)
@@ -316,5 +265,38 @@ closebutton.TextSize = 14.000
 closebutton.TextWrapped = true
 closebutton.MouseButton1Click:connect(function()
 	Frame.Visible = false
-	ApellonOpen.Visible = true
+end)
+
+dexv4.Name = "dexv4"
+dexv4.Parent = Frame
+dexv4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+dexv4.BackgroundTransparency = 0.500
+dexv4.Position = UDim2.new(0.259972483, 0, 0.75, 0)
+dexv4.Size = UDim2.new(0, 163, 0, 50)
+dexv4.Font = Enum.Font.Code
+dexv4.Text = "Dex Explorer V4"
+dexv4.TextColor3 = Color3.fromRGB(255, 255, 255)
+dexv4.TextScaled = true
+dexv4.TextSize = 14.000
+dexv4.TextStrokeTransparency = 0.000
+dexv4.TextWrapped = true
+dexv4.MouseButton1Click:connect(function()
+	loadstring(game:GetObjects('rbxassetid://2180084478')[1].Source)()
+end)
+
+ds.Name = "ds"
+ds.Parent = Frame
+ds.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ds.BackgroundTransparency = 0.500
+ds.Position = UDim2.new(0.768913388, 0, 0.567073166, 0)
+ds.Size = UDim2.new(0, 163, 0, 50)
+ds.Font = Enum.Font.Code
+ds.Text = "Destruction Simulator"
+ds.TextColor3 = Color3.fromRGB(255, 255, 255)
+ds.TextScaled = true
+ds.TextSize = 14.000
+ds.TextStrokeTransparency = 0.000
+ds.TextWrapped = true
+ds.MouseButton1Click:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/nceon/apellon-hub/main/games/Destruction%20Simulator.lua"))
 end)
