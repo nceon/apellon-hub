@@ -1,7 +1,7 @@
 # Apellon Hub
 
 Apellon hub is a powerful script hub that has different scripts init.
-Apellon hub is open-sourced!
+Apellon hub is not open sourced as from 21-12-2020
 
 
 ----- note for retarded skids -----------
